@@ -1,0 +1,30 @@
+<resources>
+
+
+    <style name="common_line">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
+    <style name="common_vertical_line">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1px</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
+    <style name="right_arrow">
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">13dp</item>
+        <item name="android:layout_width">7dp</item>
+        <item name="android:background">@mipmap/icon_right_arrow</item>
+    </style>
+
+    <style name="left_arrow">
+        <item name="android:layout_height">18dp</item>
+        <item name="android:layout_width">9dp</item>
+        <item name="android:background">@mipmap/icon_left_arrow</item>
+    </style>
+</resources>
